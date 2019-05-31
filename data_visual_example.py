@@ -4,14 +4,14 @@ hour = range(24)
 
 viewers_hour = [30, 17, 34, 29, 19, 14, 3, 2, 4, 9, 5, 48, 62, 58, 40, 51, 69, 55, 76, 81, 102, 120, 71, 63]
 
-plt.title("Codecademy Learners Time Series")
+plt.title("Viewers Time Series")
 
 plt.xlabel("Hour")
 plt.ylabel("Viewers")
 
 plt.plot(hour, viewers_hour)
 
-plt.legend(['2015-01-01'])
+plt.legend(['2019-05-01'])
 
 ax = plt.subplot()
 
